@@ -210,6 +210,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ddl-produtos.txt" />
+    <Content Include="Anotações.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

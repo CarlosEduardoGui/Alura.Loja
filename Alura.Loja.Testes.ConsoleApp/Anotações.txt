@@ -1,0 +1,4 @@
+﻿As entidades do Entity são monitoradas atraves do ChangeTracker;
+
+Por padrão, o Entity não faz o JOIN por questão de performance, então se voce precisar fazer terá que utilizar o Include e TheInclude para mais de 2 JOINs.
+Caso precise utilizar um JOIN mais para frente, use o objeto de contexto .Entry(nome do objeto que já está listado pelo ChangeTraker) .Collections
